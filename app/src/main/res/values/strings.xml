@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">MMS Mentor Manager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="set_a_profile_picture">Set a profile picture</string>
+    <string name="btn_select_file">Select file</string>
+
+    <string-array name="Countries">
+        <item>Kenya</item>
+        <item>Nigeria</item>
+        <item>South Africa</item>
+        <item>Egypt</item>
+        <item>Ethiopia</item>
+        <item>Ghana</item>
+    </string-array>
+
+    <string-array name="Cities">
+        <item>Nairobi</item>
+        <item>Lagos</item>
+        <item>Cape Town</item>
+        <item>Cairo</item>
+        <item>Addis Ababa</item>
+        <item>Accra</item>
+    </string-array>
 </resources>
