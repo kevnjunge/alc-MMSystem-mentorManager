@@ -4,6 +4,35 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="set_a_profile_picture">Set a profile picture</string>
     <string name="btn_select_file">Select file</string>
+    <string name="key_notification">Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="title_edit">EditProfile</string>
+    <string name="key_edit">Edit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="title_changePassword">Change Password</string>
+    <string name="key_change_password">Change Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="title_profile_settings">Profile Settings</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_clear_app_data">Clear App Data</string>
+    <string name="key_clear_app_data">Clear App Data</string>
+    <string name="settings">Settings</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="notification">Notification</string>
+    <string name="clear_app_data">Clear App Data</string>
+    <string name="about_app">About App</string>
+    <string name="support">Support</string>
+    <string name="faq">FAQ</string>
+    <string name="logout">Logout</string>
+    <string name="hello_kabir">Hello Kabir</string>
+    <string name="mentor_image">mentor_image</string>
+    <string name="mentor_manager">Mentor Manager</string>
+    <string name="alarm_notif">alarm_notif</string>
+    <string name="twenty">20</string>
+    <string name="mentors">Mentors</string>
+    <string name="view">View</string>
+    <string name="five">5</string>
+    <string name="profile_successfully_updated">Profile Successfully Updated</string>
 
     <string-array name="Countries">
         <item>Kenya</item>
