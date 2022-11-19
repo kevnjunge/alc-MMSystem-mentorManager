@@ -41,4 +41,16 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+    <string name="mentor_application">Mentor Application</string>
+    <string name="requests">Requests</string>
+    <string name="manage_reports">Manage Reports</string>
+    <string name="add_new_mentor">Add New Mentor</string>
+    <string name="send_broadcast_message">Send Broadcast Message</string>
+    <string name="create_task">Create Task</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="view">View</string>
+    <string name="_10">10</string>
+    <string name="_5">5</string>
+    <string name="_20">20</string>
+    <string name="hello_kabir">Hello Kabir,</string>
 </resources>

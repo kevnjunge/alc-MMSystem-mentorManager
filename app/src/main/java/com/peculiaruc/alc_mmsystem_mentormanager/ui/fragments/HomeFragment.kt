@@ -7,14 +7,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentHomeBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class HomeFragment : Fragment() {
     lateinit var binding: FragmentHomeBinding
 
@@ -22,6 +14,8 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+
         // Inflate the layout for this fragment
         binding = FragmentHomeBinding.inflate(inflater)
         return binding.root
