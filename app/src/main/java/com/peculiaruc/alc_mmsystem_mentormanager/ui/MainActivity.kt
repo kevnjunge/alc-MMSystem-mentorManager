@@ -22,11 +22,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button = findViewById<Button>(R.id.btn)
-        button.setOnClickListener {
-            val i = Intent(this, EditProfile::class.java)
-            startActivity(i)
-        }
+
         navController = findNavController(R.id.nav_host_fragment_container)
         val navBottomView: BottomNavigationView = findViewById(R.id.bottom_navigation_view)
         val drawerLayout: DrawerLayout = findViewById(R.id.mmDrawerLayout)
