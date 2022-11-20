@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertificatesBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -18,13 +19,16 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class CertificatesFragment : Fragment() {
+    lateinit var binding: FragmentCertificatesBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_certificates, container, false)
+        binding = FragmentCertificatesBinding.inflate(inflater)
+
+        return binding.root
     }
 
 }
