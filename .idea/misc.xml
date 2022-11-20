@@ -7,6 +7,7 @@
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/drawable/custom_button.xml" value="0.2485" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/drawable/empty_notification_background.xml" value="0.156" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/drawable/mentor.xml" value="0.302" />
+        <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/drawable/recyclerview_divider.xml" value="0.302" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/drawable/rounded_border_background.xml" value="0.1" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout-v23/activity_edit_profile.xml" value="0.303125" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/activity_edit_profile.xml" value="0.19486823855755894" />
@@ -20,6 +21,7 @@
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_mentors.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_messages.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_my_managers.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_notifications.xml" value="0.29010416666666666" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_profile.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_programs.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_reports.xml" value="0.30416666666666664" />
@@ -28,6 +30,7 @@
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_tasks.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/list_item.xml" value="0.303125" />
         <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/nav_header.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/Droid_Smith/Documents/AndroidStudio/ALCOpenSource/alc-MMSystem-mentorManager/app/src/main/res/layout/notifications_item.xml" value="0.303125" />
       </map>
     </option>
   </component>
