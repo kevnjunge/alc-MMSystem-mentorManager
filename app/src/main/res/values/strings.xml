@@ -42,4 +42,15 @@
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
     <string name="discussion_forums">Discussion Forums</string>
+    <string name="select_beneficiary">Select Beneficiary</string>
+    <string name="franka_kebede">Frank Kebede</string>
+    <string name="program_assistant_andela_she_her">Programs Assitant,Andela,she/her</string>
+    <string name="program_asst">Program Asst</string>
+    <string name="mentor_gad">Mentor Gad</string>
+    <string name="Kenneth_uwakwe">Kenneth Uwakwe</string>
+    <string name="judith_okafor">Judith Okafor</string>
+    <string name="ayodele_oluwa">Ayodele Oluwa</string>
+    <string name="jennifer_lopez">Jennifer Lopez</string>
+    <string name="ebubechi_orijiakor">Ebubechi Orijiakor</string>
+    <string name="select_program">Select Program</string>
 </resources>
