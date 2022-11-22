@@ -44,6 +44,13 @@
     <string name="setting_link">settingLink</string>
 
     <string name="discussion_forums">Discussion Forums</string>
+
+    <string name="program_asst">Program Asst</string>
+    <string name="program_assistant_andela_she_her">Program Assistant,Andela,she/her</string>
+    <string name="franka_kebede">Franka Kebede</string>
+    <string name="select_program">Select Program</string>
+    <string name="mentor_gad">Mentor-GAD</string>
+
     <string name="select_program">Select Program</string>
     <string name="franka_kebede">Franka Kebede</string>
     <string name="program_assistant_andela_she_her">Program Assistant,Andela,She/her</string>
