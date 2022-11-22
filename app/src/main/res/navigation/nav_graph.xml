@@ -108,6 +108,15 @@
         android:id="@+id/certBeneficiaryFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertBeneficiaryFragment"
         android:label="fragment_cert_beneficiary"
-        tools:layout="@layout/fragment_cert_beneficiary" />
+        tools:layout="@layout/fragment_cert_beneficiary" >
+        <action
+            android:id="@+id/action_certBeneficiaryFragment_to_generateCertFragment"
+            app:destination="@id/generateCertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/generateCertFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.GenerateCertFragment"
+        android:label="fragment_generate_cert"
+        tools:layout="@layout/fragment_generate_cert" />
 
 </navigation>

@@ -5,19 +5,18 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.peculiaruc.alc_mmsystem_mentormanager.R
-import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramDetailsBinding
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramsBinding
 
 
 class ProgramDetailsFragment : Fragment() {
-    lateinit var binding: FragmentProgramDetailsBinding
+    lateinit var binding: FragmentProgramsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentProgramDetailsBinding.inflate(inflater)
+        binding = FragmentProgramsBinding.inflate(inflater)
         return binding.root
     }
 
