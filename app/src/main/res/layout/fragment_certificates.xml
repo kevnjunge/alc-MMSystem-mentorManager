@@ -56,7 +56,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="110dp">
 
             <ImageView
                 android:id="@+id/certDash_image"
@@ -66,7 +66,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
                 android:contentDescription="@string/cert_image"
-                android:src="@drawable/cert_image"
+                android:src="@drawable/approved_certs"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -105,10 +105,11 @@
                 android:layout_height="39dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="40dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="15dp"
                 android:background="@drawable/custom_button"
                 android:backgroundTint="@color/mms_pry_2"
                 android:text="@string/view"
+                android:textAllCaps="false"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/app_cert"
@@ -132,7 +133,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="110dp">
 
             <ImageView
                 android:id="@+id/earn_img"
@@ -142,7 +143,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="15dp"
                 android:contentDescription="@string/earn_img"
-                android:src="@drawable/cert_image"
+                android:src="@drawable/earned_cert"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -180,9 +181,10 @@
                 android:layout_width="88dp"
                 android:layout_height="39dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginBottom="4dp"
+                android:layout_marginBottom="15dp"
                 android:background="@drawable/custom_button"
                 android:text="@string/view"
+                android:textAllCaps="false"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:ignore="TouchTargetSizeCheck" />
@@ -203,13 +205,12 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="61dp">
 
             <TextView
                 android:id="@+id/pend_cert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
                 android:layout_marginStart="24dp"
                 android:fontFamily="@font/mukta_regular"
                 android:text="@string/certificates_pending_approval"
@@ -219,28 +220,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:id="@+id/rect_colour"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="146dp"
-                android:layout_marginEnd="27dp"
-                android:contentDescription="@string/no"
-                android:src="@drawable/cert_rectangle"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/pend_cert"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/no_of_cert"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="146dp"
-                android:layout_marginTop="4dp"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/mms_sec_6"
+                android:fontFamily="@font/mukta_regular"
+                android:gravity="center"
                 android:text="@string/_3"
                 android:textColor="@color/mms_green_11"
-                app:layout_constraintEnd_toEndOf="@+id/rect_colour"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/pend_cert"
                 app:layout_constraintTop_toTopOf="parent" />

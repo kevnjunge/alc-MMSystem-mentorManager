@@ -22,9 +22,6 @@ class MainActivity : AppCompatActivity() {
    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
 
-    lateinit var appBarConfiguration: AppBarConfiguration
-    lateinit var navController: NavController
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
