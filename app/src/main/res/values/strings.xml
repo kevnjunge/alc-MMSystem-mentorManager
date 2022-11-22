@@ -22,6 +22,10 @@
         <item>Addis Ababa</item>
         <item>Accra</item>
     </string-array>
+
+
+    <!--Certificates Strings-->
+
     <string name="home">home</string>
     <string name="profile">profile</string>
     <string name="programs">programs</string>
@@ -29,9 +33,14 @@
     <string name="tasks">Tasks</string>
     <string name="reports">reports</string>
     <string name="mentors">mentors</string>
+
+    <string name="certificates">Certificates</string>
+    <string name="messages">messages</string>
+
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
     <string name="discussion_forums">discussionForums</string>
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -41,4 +50,25 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+
+    <string name="discussion_forums">Discussion Forums</string>
+    <string name="approved_certificates">Approved Certificates</string>
+    <string name="_287">287</string>
+    <string name="view">View</string>
+    <string name="cert_back">cert_back</string>
+    <string name="cert_search">cert_search</string>
+    <string name="cert_image">cert_image</string>
+    <string name="_12">12</string>
+    <string name="earned_certififcates">Earned Certififcates</string>
+    <string name="certificates_pending_approval">Certificates pending approval</string>
+    <string name="generate_new_certificate">Generate New Certificate</string>
+    <string name="apply_for_certificate">Apply for Certificate</string>
+    <string name="earn_img">earn_img</string>
+    <string name="no">no</string>
+    <string name="_3">3</string>
+    <string name="franka_kebede">Franka Kebede</string>
+    <string name="gads_cloud_2022_compl">GADS CLOUD 2022-COMPL....</string>
+    <string name="kenneth_uwakwe">Kenneth Uwakwe</string>
+    <!--Certificates Strings-->
+
 </resources>
