@@ -32,6 +32,7 @@
     <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -41,6 +42,7 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+
     <string name="discussion_forums">Discussion Forums</string>
     <string name="select_program">Select Program</string>
     <string name="franka_kebede">Franka Kebede</string>
@@ -48,4 +50,5 @@
     <string name="program_assit">Program Assit</string>
     <string name="mentor_gad">MENTOR-GAD</string>
     <string name="select_programs">Select Programs</string>
+
 </resources>
