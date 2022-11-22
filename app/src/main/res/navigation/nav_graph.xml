@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_certificatesFragment_to_earnedCertFragment2"
             app:destination="@id/earnedCertFragment" />
+        <action
+            android:id="@+id/action_certificatesFragment_to_certBeneficiaryFragment"
+            app:destination="@id/certBeneficiaryFragment" />
     </fragment>
 
 
@@ -101,5 +104,10 @@
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.EarnedCertFragment"
         android:label="fragment_earned_cert"
         tools:layout="@layout/fragment_earned_cert" />
+    <fragment
+        android:id="@+id/certBeneficiaryFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertBeneficiaryFragment"
+        android:label="fragment_cert_beneficiary"
+        tools:layout="@layout/fragment_cert_beneficiary" />
 
 </navigation>

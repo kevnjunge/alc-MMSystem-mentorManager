@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/drawable/cert_benef_cust_btn.xml" value="0.2695" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/drawable/custom_button.xml" value="0.2695" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/activity_edit_profile.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/activity_main.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/approved_list_item.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_approved_certificates.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_cert_beneficiary.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_certificates.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_dashboard.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_earned_cert.xml" value="0.14635416666666667" />

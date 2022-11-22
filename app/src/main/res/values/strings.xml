@@ -113,16 +113,12 @@
     <string name="_3">3</string>
     <!--Certificates Strings-->
 
-
-
-    <string name="discussion_forums">Discussion Forums</string>
     <string name="earned_certs">Earned Certs</string>
     <string name="franka_kebede">Franka Kebede</string>
     <string name="gads_cloud_2022_compl">GADS CLOUD 2022 - COMPL....</string>
     <string name="kenneth_uwakwe">Kenneth Uwakwe</string>
 
     <string name="select_beneficiary">Select Beneficiary</string>
-    <string name="franka_kebede">Frank Kebede</string>
     <string name="program_assistant_andela_she_her">Programs Assitant,Andela,she/her</string>
     <string name="program_asst">Program Asst</string>
     <string name="mentor_gad">Mentor Gad</string>
