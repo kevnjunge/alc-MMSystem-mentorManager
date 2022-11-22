@@ -49,15 +49,24 @@
         <item>Addis Ababa</item>
         <item>Accra</item>
     </string-array>
+
+    <string-array name="notification_category">
+        <item>All</item>
+        <item>Mentor</item>
+        <item>Admin</item>
+    </string-array>
+
     <string name="home">home</string>
     <string name="profile">profile</string>
     <string name="programs">programs</string>
     <string name="managers">Managers</string>
     <string name="tasks">Tasks</string>
     <string name="reports">reports</string>
+    <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
     <string name="discussion_forums">discussionForums</string>
+    <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
     <string name="btm_program">Program</string>
@@ -77,4 +86,7 @@
     <string name="_5">5</string>
     <string name="_20">20</string>
 
+    <string name="mark_all_as_read">Mark all as Read</string>
+    <string name="nothing_found">Nothing Found</string>
+    <string name="notification_check_back_later">Notifications are on their way. Check back later when they arrive safely</string>
 </resources>
