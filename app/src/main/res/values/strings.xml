@@ -72,6 +72,7 @@
 
     <string name="discussion_forums">discussionForums</string>
 
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -128,5 +129,24 @@
     <string name="jennifer_lopez">Jennifer Lopez</string>
     <string name="ebubechi_orijiakor">Ebubechi Orijiakor</string>
     <string name="select_program">Select Program</string>
+
+
+    <string name="discussion_forums">Discussion Forums</string>
+
+    <string name="generated_certificate">My Generate Certificate</string>
+
+
+    <string name="program_asst">Program Asst</string>
+    <string name="program_assistant_andela_she_her">Program Assistant,Andela,she/her</string>
+    <string name="franka_kebede">Franka Kebede</string>
+    <string name="select_program">Select Program</string>
+    <string name="mentor_gad">Mentor-GAD</string>
+
+    <string name="select_program">Select Program</string>
+    <string name="franka_kebede">Franka Kebede</string>
+    <string name="program_assistant_andela_she_her">Program Assistant,Andela,She/her</string>
+    <string name="program_assit">Program Assit</string>
+    <string name="mentor_gad">MENTOR-GAD</string>
+    <string name="select_programs">Select Programs</string>
 
 </resources>
