@@ -69,9 +69,6 @@
     <string name="messages">messages</string>
 
 
-
-    <string name="discussion_forums">discussionForums</string>
-
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -111,9 +108,6 @@
     <string name="earn_img">earn_img</string>
     <string name="no">no</string>
     <string name="_3">3</string>
-    <string name="franka_kebede">Franka Kebede</string>
-    <string name="gads_cloud_2022_compl">GADS CLOUD 2022-COMPL....</string>
-    <string name="kenneth_uwakwe">Kenneth Uwakwe</string>
     <!--Certificates Strings-->
 
 

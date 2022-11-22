@@ -27,6 +27,11 @@ class CertificatesFragment : Fragment() {
             val action = CertificatesFragmentDirections.actionCertificatesFragmentToApprovedCertificateFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.earnBtn.setOnClickListener {
+            val action = CertificatesFragmentDirections.actionCertificatesFragmentToEarnedCertFragment()
+            it.findNavController().navigate(action)
+        }
         return binding.root
 
 

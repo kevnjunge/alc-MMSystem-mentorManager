@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_certificatesFragment_to_approvedCertificateFragment"
             app:destination="@id/approvedCertificateFragment" />
+        <action
+            android:id="@+id/action_certificatesFragment_to_earnedCertFragment2"
+            app:destination="@id/earnedCertFragment" />
     </fragment>
 
 
@@ -29,9 +32,6 @@
         <action
             android:id="@+id/action_certificatesFragment_to_earnedCertFragment"
             app:destination="@id/earnedCertFragment" />
-    </fragment>
-
-        tools:layout="@layout/fragment_certificates" />
 
     <fragment
         android:id="@+id/programsFragment2"
