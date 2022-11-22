@@ -2,7 +2,7 @@ package com.peculiaruc.alc_mmsystem_mentormanager.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
@@ -13,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var appBarConfiguration: AppBarConfiguration
@@ -28,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = findViewById(R.id.mmDrawerLayout)
         val navView: NavigationView = findViewById(R.id.Nav_View)
         navBottomView.setupWithNavController(navController)
+
+
 
         //Navigation Up button
         appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)

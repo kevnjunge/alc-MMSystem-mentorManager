@@ -15,7 +15,7 @@
         android:layout_marginTop="32dp"
         android:contentDescription="@string/mentor_image"
         android:paddingTop="8dp"
-        android:src="@drawable/ellipse_1"
+        android:src="@drawable/ellipse"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -25,8 +25,6 @@
     <string name="faq">FAQ</string>
     <string name="logout">Logout</string>
     <string name="hello_kabir">Hello Kabir</string>
-    <string name="mentor_image">mentor_image</string>
-    <string name="mentor_manager">Mentor Manager</string>
     <string name="alarm_notif">alarm_notif</string>
     <string name="twenty">20</string>
     <string name="mentors">Mentors</string>
@@ -57,11 +55,9 @@
     <string name="managers">Managers</string>
     <string name="tasks">Tasks</string>
     <string name="reports">reports</string>
-    <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
     <string name="discussion_forums">discussionForums</string>
-    <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
     <string name="btm_program">Program</string>
@@ -77,9 +73,8 @@
     <string name="send_broadcast_message">Send Broadcast Message</string>
     <string name="create_task">Create Task</string>
     <string name="quick_actions">Quick Actions</string>
-    <string name="view">View</string>
     <string name="_10">10</string>
     <string name="_5">5</string>
     <string name="_20">20</string>
-    <string name="hello_kabir">Hello Kabir,</string>
+
 </resources>
