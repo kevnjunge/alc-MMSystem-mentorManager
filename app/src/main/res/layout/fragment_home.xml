@@ -54,10 +54,13 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="257dp"
             android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:focusable="true"
             android:src="@drawable/notification_bell"
             app:layout_constraintBottom_toBottomOf="@+id/mmDashProfilePicture"
             app:layout_constraintStart_toEndOf="@+id/mmDashProfilePicture"
-            app:layout_constraintTop_toTopOf="@+id/mmDashProfilePicture" />
+            app:layout_constraintTop_toTopOf="@+id/mmDashProfilePicture"
+             />
 
         <HorizontalScrollView
             android:id="@+id/mmCardsScroll"

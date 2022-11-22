@@ -23,11 +23,9 @@
     <string name="about_app">About App</string>
     <string name="support">Support</string>
     <string name="faq">FAQ</string>
-    <string name="logout">Logout</string>
     <string name="hello_kabir">Hello Kabir</string>
     <string name="alarm_notif">alarm_notif</string>
     <string name="twenty">20</string>
-    <string name="mentors">Mentors</string>
     <string name="view">View</string>
     <string name="five">5</string>
     <string name="profile_successfully_updated">Profile Successfully Updated</string>

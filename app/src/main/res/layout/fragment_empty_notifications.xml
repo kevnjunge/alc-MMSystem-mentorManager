@@ -3,16 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".ui.fragments.EmptyNotificationsFragment">
 
     <Spinner
         android:id="@+id/spinnerEmptyNotifications"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:entries="@array/notification_category"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:entries="@array/notification_category"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,18 +21,21 @@
         android:id="@+id/tvMarkAllAsRead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="@font/mukta_regular"
+        android:padding="8dp"
         android:text="@string/mark_all_as_read"
         android:textColor="@color/mms_black_7"
         android:textSize="12sp"
-        android:padding="8dp"
-        android:layout_marginStart="166dp"
-        android:layout_marginEnd="20dp"
+        app:drawableEndCompat="@drawable/markcomplete"
+        app:drawableTint="@color/mms_black_7"
         app:layout_constraintBottom_toBottomOf="@+id/spinnerEmptyNotifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/spinnerEmptyNotifications"
         app:layout_constraintTop_toTopOf="@+id/spinnerEmptyNotifications"
-        app:drawableEndCompat="@drawable/markcomplete"
-        app:drawableTint="@color/mms_black_7" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imgEmptyNotifications"
@@ -60,15 +64,18 @@
         android:id="@+id/tvCheckBackLater"
         android:layout_width="243dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/mukta_regular"
-        android:text="@string/notification_check_back_later"
-        android:textSize="12sp"
-        android:textColor="@color/mms_black_1"
-        android:gravity="center"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/mukta_regular"
+        android:gravity="center"
+        android:text="@string/notification_check_back_later"
+        android:textColor="@color/mms_black_1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNothingFound" />
+        app:layout_constraintTop_toBottomOf="@+id/tvNothingFound"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

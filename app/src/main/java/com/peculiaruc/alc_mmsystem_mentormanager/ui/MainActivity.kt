@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
@@ -23,12 +24,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
+        navController = navHostFragment.navController
 
-        navController = findNavController(R.id.nav_host_fragment_container)
+
+
         val navBottomView: BottomNavigationView = findViewById(R.id.bottom_navigation_view)
         val drawerLayout: DrawerLayout = findViewById(R.id.mmDrawerLayout)
         val navView: NavigationView = findViewById(R.id.Nav_View)
         navBottomView.setupWithNavController(navController)
+
+//        val btnSettings = findViewById<ImageView>(R.id.setting_Account)
+//        btnSettings.setOnClickListener{
+//            val intent = Intent(this, SettingsFragment::class.java)
+//            startActivity(intent)
+//        }
 
 
 
