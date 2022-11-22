@@ -1,10 +1,10 @@
 package com.peculiaruc.alc_mmsystem_mentormanager.ui
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -15,10 +15,16 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SettingsFragment
+import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertificatesFragment
 
 class MainActivity : AppCompatActivity() {
+
+   private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var navController: NavController
+
     lateinit var appBarConfiguration: AppBarConfiguration
     lateinit var navController: NavController
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,21 +41,15 @@ class MainActivity : AppCompatActivity() {
         val navView: NavigationView = findViewById(R.id.Nav_View)
         navBottomView.setupWithNavController(navController)
 
-//        val btnSettings = findViewById<ImageView>(R.id.setting_Account)
-//        btnSettings.setOnClickListener{
-//            val intent = Intent(this, SettingsFragment::class.java)
-//            startActivity(intent)
-//        }
-
-
-
         //Navigation Up button
         appBarConfiguration = AppBarConfiguration(navController.graph,drawerLayout)
 
         // Drawer Layout
         NavigationUI.setupWithNavController(navView,navController)
+
     }
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController,appBarConfiguration)
     }
+
 }

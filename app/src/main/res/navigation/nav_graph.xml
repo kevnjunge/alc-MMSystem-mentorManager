@@ -18,7 +18,12 @@
         android:id="@+id/certificatesFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertificatesFragment"
         android:label="@string/certificates"
-        tools:layout="@layout/fragment_certificates" />
+        tools:layout="@layout/fragment_certificates" >
+        <action
+            android:id="@+id/action_certificatesFragment_to_approvedCertificateFragment"
+            app:destination="@id/approvedCertificateFragment" />
+    </fragment>
+
     <fragment
         android:id="@+id/programsFragment2"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.ProgramsFragment"
@@ -74,4 +79,11 @@
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.EmptyNotificationsFragment"
         android:label="fragment_empty_notifications"
         tools:layout="@layout/fragment_empty_notifications" />
+
+    <fragment
+        android:id="@+id/approvedCertificateFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.ApprovedCertificateFragment"
+        android:label="fragment_approved_certificates"
+        tools:layout="@layout/fragment_approved_certificates" />
+
 </navigation>
