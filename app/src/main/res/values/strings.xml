@@ -32,6 +32,9 @@
     <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
+
+    <string name="discussion_forums">discussionForums</string>
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -41,9 +44,11 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+
     <string name="discussion_forums">Discussion Forums</string>
     <string name="pending_Approval">Pending Approval</string>
     <string name="franka_kebede">Franka Kebede</string>
     <string name="gads_cloud_2022_compl">GADS CLOUD 2022-COMPL…</string>
     <string name="kenneth_uwakwe">Kenneth Uwakwe</string>
+
 </resources>
