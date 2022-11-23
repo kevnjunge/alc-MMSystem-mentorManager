@@ -1,10 +1,10 @@
 package com.peculiaruc.alc_mmsystem_mentormanager.ui
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageView
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.fragment.app.FragmentManager
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
@@ -14,12 +14,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import com.peculiaruc.alc_mmsystem_mentormanager.R
-import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SettingsFragment
-import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertificatesFragment
-
 class MainActivity : AppCompatActivity() {
 
-   private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
 
 
