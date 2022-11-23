@@ -5,6 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".ui.fragments.EmptyNotificationsFragment">
+    <ImageView
+        android:id="@+id/btnBackHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notificationsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/mukta_bold"
+        android:text="Notifications"
+        android:textColor="@color/mms_black_2"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBackHome"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinnerEmptyNotifications"
@@ -15,7 +37,7 @@
         android:entries="@array/notification_category"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/btnBackHome" />
 
     <TextView
         android:id="@+id/tvMarkAllAsRead"

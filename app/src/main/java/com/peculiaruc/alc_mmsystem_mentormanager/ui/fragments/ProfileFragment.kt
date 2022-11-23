@@ -5,25 +5,33 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProfileBinding
 
-// TODO: Rename parameter arguments, choose names that match
 
-/**
- * A simple [Fragment] subclass.
- * Use the [ProfileFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class ProfileFragment : Fragment() {
+
+    private lateinit var binding: FragmentProfileBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 
-        
+        binding = FragmentProfileBinding.inflate(inflater)
+
+        binding.btnSearch.setOnClickListener{
+            val action = ProfileFragmentDirections.actionProfileFragmentToEditMyProfileFragment()
+            it.findNavController().navigate(action)
+        }
+
+        binding.btnBackProfile.setOnClickListener {
+            val action = ProfileFragmentDirections.actionProfileFragmentToHomeFragment()
+            it.findNavController().navigate(action)
+        }
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile,container,false)
+        return binding.root
     }
 
 }

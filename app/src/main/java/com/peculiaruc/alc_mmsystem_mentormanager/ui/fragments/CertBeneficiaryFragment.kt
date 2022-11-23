@@ -25,6 +25,10 @@ lateinit var binding: FragmentCertBeneficiaryBinding
             val action = CertBeneficiaryFragmentDirections.actionCertBeneficiaryFragmentToGenerateCertFragment()
             it.findNavController().navigate(action)
         }
+        binding.btnBackHome.setOnClickListener {
+            val action  = CertBeneficiaryFragmentDirections.actionCertBeneficiaryFragmentToCertificatesFragment()
+            it.findNavController().navigate(action)
+        }
 
         // Inflate the layout for this fragment
         return binding.root

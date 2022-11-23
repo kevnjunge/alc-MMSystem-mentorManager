@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEditMyProfileBinding
 
@@ -19,6 +20,12 @@ class EditMyProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentEditMyProfileBinding.inflate(layoutInflater)
+
+        binding!!.btnBackHome.setOnClickListener {
+            val action = EditMyProfileFragmentDirections.actionEditMyProfileFragmentToProfileFragment()
+            it.findNavController().navigate(action)
+        }
+
 
 
         //Country Exposed DropDown
