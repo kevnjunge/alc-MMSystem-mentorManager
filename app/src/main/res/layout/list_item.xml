@@ -1,48 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvDocumentName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/mms_black_2"
+        android:textSize="16sp"
+        app:fontFamily="@font/mukta_regular"
+        app:layout_constraintEnd_toStartOf="@+id/tvChoose"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Resume.doc" />
 
-        <EditText
-            android:id="@+id/tvFileName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="My Resume"
-            android:textColor="@color/mms_black_3"
-            android:textSize="12sp" />
+    <TextView
+        android:id="@+id/tvChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:textColor="@color/mms_pry_2"
+        android:textSize="16sp"
+        android:layout_marginEnd="20dp"
+        app:fontFamily="@font/mukta_regular"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDocumentName"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_remove"
+        app:layout_constraintTop_toTopOf="@+id/tvDocumentName" />
 
-        <EditText
-            android:id="@+id/tvChooseFile"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_toEndOf="@+id/tvFileName"
-            android:padding="8dp"
-            android:text="Choose"
-            android:textColor="@color/mms_pry_2"
-            android:textSize="12sp" />
-
-<!--        <EditText-->
-<!--            android:id="@+id/btnRemoveFile"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_toEndOf="@+id/tvChooseFile"-->
-<!--            android:drawableStart="@drawable/subtractcircleminusremove1"-->
-<!--            android:drawableTint="@color/mms_sec_3"-->
-<!--            android:layout_marginStart="25.25dp"-->
-<!--            android:clickable="true"-->
-<!--            android:padding="8dp"-->
-<!--            android:textColor="@color/mms_pry_2"-->
-<!--            android:textSize="12sp"-->
-<!--            android:focusable="true" />-->
-
-
-    </RelativeLayout>
-
-</LinearLayout>
+    <ImageView
+        android:id="@+id/imageView_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvChoose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvChoose"
+        android:src="@drawable/subtractcircleminusremove1"
+        app:tint="@color/mms_sec_3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

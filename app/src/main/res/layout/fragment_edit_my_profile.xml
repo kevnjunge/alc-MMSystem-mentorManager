@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.EditProfile">
+    tools:context=".ui.fragments.EditMyProfileFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -30,7 +30,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="105dp"
             android:layout_marginEnd="156dp"
-            android:text="Set a profile picture"
+            android:text="@string/set_a_profile_picture"
+            android:fontFamily="@font/mukta_regular"
             android:textColor="@color/mms_black_2"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="@+id/mmProfilePicture"
@@ -48,6 +49,7 @@
             android:layout_marginTop="2dp"
             android:text="@string/btn_select_file"
             android:textColor="@color/mms_pry_2"
+            android:fontFamily="@font/mukta_regular"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.0"
@@ -57,14 +59,15 @@
         <EditText
             android:id="@+id/etFullName"
             android:layout_width="320dp"
-            android:layout_height="47dp"
+            android:layout_height="48dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="43dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/rounded_border_background"
-            android:hint="Full Name"
+            android:hint="@string/full_name"
             android:padding="8dp"
             android:textColor="@color/mms_black_5"
+            android:fontFamily="@font/mukta_regular"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,11 +76,12 @@
         <EditText
             android:id="@+id/etHeadline"
             android:layout_width="320dp"
-            android:layout_height="47dp"
+            android:layout_height="48dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_border_background"
-            android:hint="Headline"
+            android:hint="@string/headline"
             android:padding="8dp"
+            android:fontFamily="@font/mukta_regular"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@+id/etFullName"
@@ -91,8 +95,9 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_border_background"
             android:gravity="start"
-            android:hint="About"
+            android:hint="@string/about"
             android:padding="8dp"
+            android:fontFamily="@font/mukta_regular"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="@+id/etHeadline"
@@ -105,7 +110,7 @@
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="Country"
+            android:hint="@string/country"
             app:endIconDrawable="@drawable/img"
             app:layout_constraintEnd_toEndOf="@+id/etAbout"
             app:layout_constraintStart_toStartOf="@+id/etAbout"
@@ -115,6 +120,8 @@
                 android:id="@+id/autoCompleteCountryTextView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:fontFamily="@font/mukta_regular"
+                android:textSize="16sp"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -125,7 +132,7 @@
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:hint="City"
+            android:hint="@string/city"
             app:endIconDrawable="@drawable/img"
             app:layout_constraintEnd_toEndOf="@+id/exposedDropdownCountry"
             app:layout_constraintStart_toStartOf="@+id/exposedDropdownCountry"
@@ -135,6 +142,8 @@
                 android:id="@+id/autoCompleteCityTextView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:fontFamily="@font/mukta_regular"
                 android:inputType="none" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -146,7 +155,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="26dp"
             android:layout_marginEnd="175dp"
-            android:text="Technical Proficiency"
+            android:text="@string/technical_proficiency"
+            android:fontFamily="@font/mukta_bold"
             android:textColor="@color/mms_black_2"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -272,7 +282,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="26dp"
             android:layout_marginEnd="175dp"
-            android:text="Previous Roles Held"
+            android:text="@string/previous_roles_held"
+            android:fontFamily="@font/mukta_bold"
             android:textColor="@color/mms_black_2"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -352,7 +363,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="26dp"
             android:layout_marginEnd="175dp"
-            android:text="Previous Roles Held"
+            android:text="@string/previous_programs"
+            android:fontFamily="@font/mukta_bold"
             android:textColor="@color/mms_black_2"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -367,8 +379,9 @@
             android:background="@drawable/rounded_border_background"
             android:drawableEnd="@drawable/subtractcircleminusremove1"
             android:drawablePadding="10dp"
-            android:hint="Input previous held programs"
+            android:hint="@string/input_previous_held_programs"
             android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -383,8 +396,9 @@
             android:background="@drawable/rounded_border_background"
             android:drawableEnd="@drawable/subtractcircleminusremove1"
             android:drawablePadding="10dp"
-            android:hint="Input previous held programs"
+            android:hint="@string/input_previous_held_programs"
             android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -413,32 +427,29 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="61dp"
             android:layout_marginEnd="250dp"
-            android:text="Documents"
+            android:text="@string/documents"
+            android:fontFamily="@font/mukta_bold"
             android:textColor="@color/mms_black_2"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etInputPreviousHeldPrograms2" />
 
-        <LinearLayout
-            android:id="@+id/DocumentList"
-            android:layout_width="320dp"
-            android:layout_height="191dp"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_documents"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
             android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item"
             android:background="@drawable/rounded_border_background"
-            android:orientation="vertical"
-            android:padding="8dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvDocuments">
-
-            <ListView
-                android:id="@+id/fileListView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:listitem="@layout/list_item" />
-
-        </LinearLayout>
+            app:layout_constraintStart_toStartOf="@+id/tvDocuments"
+            app:layout_constraintTop_toBottomOf="@+id/tvDocuments"
+            />
 
         <Button
             android:id="@+id/btnUploadDocuments"
@@ -451,10 +462,10 @@
             android:text="Upload Documents"
             android:textColor="@color/mms_black_10"
             android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="@+id/DocumentList"
+            app:layout_constraintEnd_toEndOf="@+id/recyclerView_documents"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/DocumentList"
-            app:layout_constraintTop_toBottomOf="@+id/DocumentList" />
+            app:layout_constraintStart_toStartOf="@+id/recyclerView_documents"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView_documents" />
 
         <TextView
             android:id="@+id/tvSocial"
@@ -463,12 +474,29 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="67dp"
             android:layout_marginEnd="293dp"
-            android:text="Social"
+            android:text="@string/social"
             android:textColor="@color/mms_black_2"
+            android:fontFamily="@font/mukta_bold"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/DocumentList" />
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView_documents" />
+        <EditText
+            android:id="@+id/etWebsiteSocial"
+            android:layout_width="320dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_border_background"
+            android:drawableStart="@drawable/globeworldearth1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/mms_black_5"
+            android:hint="@string/website"
+            android:paddingLeft="15dp"
+            android:textColor="@color/mms_black_5"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSocial" />
 
         <EditText
             android:id="@+id/etGithubSocial"
@@ -479,13 +507,13 @@
             android:drawableStart="@drawable/github"
             android:drawablePadding="10dp"
             android:drawableTint="@color/mms_black_5"
-            android:hint="Github"
+            android:hint="@string/github"
             android:paddingLeft="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvSocial" />
+            app:layout_constraintTop_toBottomOf="@+id/etWebsiteSocial" />
 
         <EditText
             android:id="@+id/etInstagramSocial"
@@ -496,7 +524,7 @@
             android:drawableStart="@drawable/instagram"
             android:drawablePadding="10dp"
             android:drawableTint="@color/mms_black_5"
-            android:hint="Instagram"
+            android:hint="@string/instagram"
             android:paddingLeft="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
@@ -513,7 +541,7 @@
             android:drawableStart="@drawable/linkedin"
             android:drawablePadding="10dp"
             android:drawableTint="@color/mms_black_5"
-            android:hint="Linkedin"
+            android:hint="@string/linkedin"
             android:paddingLeft="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
@@ -530,7 +558,7 @@
             android:drawableStart="@drawable/twitter"
             android:drawablePadding="10dp"
             android:drawableTint="@color/mms_black_5"
-            android:hint="Twitter"
+            android:hint="@string/twitter"
             android:paddingLeft="15dp"
             android:textColor="@color/mms_black_5"
             android:textSize="16sp"
@@ -544,9 +572,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:background="@drawable/rounded_border_background"
-            android:text="Save"
+            android:text="@string/save"
             android:textColor="@color/mms_black_10"
             android:textSize="12sp"
+            android:fontFamily="@font/mukta_semi_bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etTwitterSocial" />

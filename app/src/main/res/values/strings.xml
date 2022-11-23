@@ -28,6 +28,23 @@
     <string name="twenty">20</string>
     <string name="five">5</string>
     <string name="profile_successfully_updated">Profile Successfully Updated</string>
+    <string name="full_name">Full Name</string>
+    <string name="headline">Headline</string>
+    <string name="about">About</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="technical_proficiency">Technical Proficiency</string>
+    <string name="previous_roles_held">Previous Roles Held</string>
+    <string name="previous_programs">Previous Programs</string>
+    <string name="input_previous_held_programs">Input previous held programs</string>
+    <string name="documents">Documents</string>
+    <string name="social">Social</string>
+    <string name="github">Github</string>
+    <string name="instagram">Instagram</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="twitter">Twitter</string>
+    <string name="save">Save</string>
+    <string name="website">Website</string>
 
     <string-array name="Countries">
         <item>Kenya</item>
