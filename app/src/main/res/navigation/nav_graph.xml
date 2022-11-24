@@ -90,6 +90,13 @@
         tools:layout="@layout/fragment_search" />
 
     <fragment
+        android:id="@+id/mentorCertficateFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.MentorCertficateFragment"
+        android:label="fragment_mentor_certficate"
+        tools:layout="@layout/fragment_mentor_certficate" />
+
+
+    <fragment
         android:id="@+id/certRequestSelectFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertRequestSelectFragment"
         android:label="fragment_cert_request_select"
