@@ -22,6 +22,7 @@
         <item>Addis Ababa</item>
         <item>Accra</item>
     </string-array>
+    
     <string name="home">home</string>
     <string name="profile">profile</string>
     <string name="programs">programs</string>
@@ -31,7 +32,7 @@
     <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
-    <string name="discussion_forums">discussionForums</string>
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -41,4 +42,13 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+
+    <string name="discussion_forums">Discussion Forums</string>
+    <string name="google_africa_scho">Google Africa Scho</string>
+    <string name="google_africa_developer_scholarship_program2">Google Africa Developer \n Scholarship Program</string>
+    <string name="about">About:</string>
+    <string name="about_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. </string>
+    <string name="apply">Apply</string>
+    <string name="cert_notif">Certificate Request \n Sent Successfully!!</string>
+
 </resources>

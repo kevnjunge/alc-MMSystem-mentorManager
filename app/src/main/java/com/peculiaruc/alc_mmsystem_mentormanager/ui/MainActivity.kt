@@ -38,8 +38,11 @@ class MainActivity : AppCompatActivity() {
 
         // Drawer Layout
         NavigationUI.setupWithNavController(navView,navController)
+
     }
+
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController,appBarConfiguration)
     }
+
 }
