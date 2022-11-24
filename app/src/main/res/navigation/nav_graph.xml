@@ -95,8 +95,8 @@
         android:label="fragment_cert_request_select"
         tools:layout="@layout/fragment_cert_request_select" >
         <action
-            android:id="@+id/action_certRequestSelectFragment_to_certificatesFragment"
-            app:destination="@id/certificatesFragment" />
+            android:id="@+id/action_certRequestSelectFragment_to_generateCertFragment"
+            app:destination="@id/generateCertFragment" />
     </fragment>
 
     <fragment
@@ -146,7 +146,14 @@
         android:id="@+id/generateCertFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.GenerateCertFragment"
         android:label="fragment_generate_cert"
-        tools:layout="@layout/fragment_generate_cert" />
+        tools:layout="@layout/fragment_generate_cert" >
+        <action
+            android:id="@+id/action_generateCertFragment_to_certRequestSelectFragment"
+            app:destination="@id/certRequestSelectFragment" />
+        <action
+            android:id="@+id/action_generateCertFragment_to_generatedCertsFragment"
+            app:destination="@id/generatedCertsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/editMyProfileFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.EditMyProfileFragment"
@@ -156,5 +163,10 @@
             android:id="@+id/action_editMyProfileFragment_to_profileFragment"
             app:destination="@id/profileFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/generatedCertsFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.GeneratedCertsFragment"
+        android:label="fragment_generated_certs"
+        tools:layout="@layout/fragment_generated_certs" />
 
 </navigation>

@@ -1,21 +1,61 @@
 package com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments
 
+import android.app.Dialog
+import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentGenerateCertBinding
 
 
 class GenerateCertFragment : Fragment() {
+
+    private lateinit var binding: FragmentGenerateCertBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding = FragmentGenerateCertBinding.inflate(inflater)
+
+
+
+        binding.autoCompleteProgram.setOnClickListener {
+            val action =
+                GenerateCertFragmentDirections.actionGenerateCertFragmentToCertRequestSelectFragment()
+            it.findNavController().navigate(action)
+
+
+        }
+
+        binding.generateBtn.setOnClickListener {
+
+            val dialogBinding = layoutInflater.inflate(R.layout.cert_request_select_dialog, null)
+
+            val myDialog = Dialog(requireContext())
+            myDialog.setContentView(dialogBinding)
+            myDialog.setCancelable(true)
+            myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+
+            val requestDone = dialogBinding.findViewById<Button>(R.id.dialog_done)
+            requestDone.setOnClickListener {
+//               val action = GenerateCertFragmentDirections.actionGenerateCertFragmentToGeneratedCertsFragment()
+//                it.findNavController().navigate(action)
+                myDialog.dismiss()
+            }
+            myDialog.show()
+        }
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_generate_cert, container, false)
+        return binding.root
     }
 
 
