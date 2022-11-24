@@ -60,4 +60,15 @@
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/certRequestSelectFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertRequestSelectFragment"
+        android:label="fragment_cert_request_select"
+        tools:layout="@layout/fragment_cert_request_select" >
+        <action
+            android:id="@+id/action_certRequestSelectFragment_to_certificatesFragment"
+            app:destination="@id/certificatesFragment" />
+    </fragment>
+
 </navigation>
