@@ -5,17 +5,25 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEarnedCertBinding
 
 class EarnedCertFragment : Fragment() {
-
+ private lateinit var binding:FragmentEarnedCertBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding = FragmentEarnedCertBinding.inflate(inflater)
+
+        binding.earnedCerts.setOnClickListener {
+            val action = EarnedCertFragmentDirections.actionEarnedCertFragmentToMentorCertficateFragment()
+            it.findNavController().navigate(action)
+        }
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_earned_cert, container, false)
+        return binding.root
     }
 
 

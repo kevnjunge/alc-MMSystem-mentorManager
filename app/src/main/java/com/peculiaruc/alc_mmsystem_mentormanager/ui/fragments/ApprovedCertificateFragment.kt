@@ -24,6 +24,10 @@ class ApprovedCertificateFragment : Fragment() {
             val action = ApprovedCertificateFragmentDirections.actionApprovedCertificateFragmentToCertificatesFragment()
             it.findNavController().navigate(action)
         }
+        binding.approvedCerts.setOnClickListener{
+            val action = ApprovedCertificateFragmentDirections.actionApprovedCertificateFragmentToMentorCertficateFragment()
+            it.findNavController().navigate(action)
+        }
         // Inflate the layout for this fragment
         return binding.root
     }

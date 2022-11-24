@@ -33,6 +33,8 @@
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_generate_certificate.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_generated_certs.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_home.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_mentor_certficate.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_mentors.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_notifications.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_profile.xml" value="0.24161378059836808" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_program_details.xml" value="0.30416666666666664" />
@@ -43,6 +45,7 @@
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_tasks.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/list_item.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/mentors_item.xml" value="0.2977777777777778" />
+        <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/my_custom_dialog.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/nav_header.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/notifications_item.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Droid_Smith/Desktop/CommunityProject/alc-MMSystem-mentorManager/app/src/main/res/layout/program_item.xml" value="0.303125" />

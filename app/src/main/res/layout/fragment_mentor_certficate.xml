@@ -55,7 +55,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:src="@drawable/ellipse"
+                android:src="@drawable/ellipse12"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.063"
@@ -121,12 +121,12 @@
 
     <ImageView
         android:id="@+id/certificateView"
-        android:layout_width="302dp"
-        android:layout_height="213dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:src="@drawable/ace_1__2_"
+        android:src="@drawable/certificate_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mentorView" />
@@ -136,7 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/mukta_regular"
         android:text="Download as"
         android:textColor="@color/mms_black_2"
@@ -144,42 +144,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/certificateView" />
 
+
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/expose_options"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="132dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:hint="PDF"
         app:endIconDrawable="@drawable/img"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/dwn_btn"
-        app:layout_constraintTop_toBottomOf="@id/certificateView"
-        app:layout_constraintVertical_bias="0.115">
+        app:layout_constraintBottom_toBottomOf="@+id/dwn_btn"
+        app:layout_constraintStart_toEndOf="@+id/dwn_btn"
+        app:layout_constraintTop_toTopOf="@+id/dwn_btn">
 
         <AutoCompleteTextView
-            android:id="@+id/optionsComplete"
-            android:layout_width="match_parent"
+            android:id="@+id/autoCompleteCountryTextView"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="16dp"
+            android:fontFamily="@font/mukta_regular"
             android:inputType="none"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="-177dp" />
+            android:textSize="16sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/dwld_mentor"
         android:layout_width="318dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginTop="115dp"
-        android:text="Download"
+        android:layout_height="wrap_content"
         android:background="@drawable/download_custom_btn"
-        android:textSize="18sp"
         android:fontFamily="@font/mukta_semibold"
+        android:text="Download"
         android:textColor="@color/mms_black_10"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/expose_options" />
 
