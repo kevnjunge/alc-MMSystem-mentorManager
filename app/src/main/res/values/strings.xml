@@ -32,6 +32,7 @@
     <string name="mentors">mentors</string>
     <string name="certificates">certificates</string>
     <string name="messages">messages</string>
+
     <string name="logout">logout</string>
     <string name="btm_home">Home</string>
     <string name="btm_search">Search</string>
@@ -41,7 +42,9 @@
     <string name="mentor_image">mentorImage</string>
     <string name="mentor_manager">Mentor Manager</string>
     <string name="setting_link">settingLink</string>
+
     <string name="discussion_forums">Discussion Forums</string>
     <string name="select_program">Select Program</string>
     <string name="google_africa_developer_scholarship_program">Googl Africa Developer Scholarship \n Program</string>
+
 </resources>
