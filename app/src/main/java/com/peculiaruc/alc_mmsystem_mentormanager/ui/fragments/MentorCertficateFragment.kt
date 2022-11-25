@@ -27,13 +27,13 @@ class MentorCertficateFragment : Fragment() {
         binding = FragmentMentorCertficateBinding.inflate(inflater)
 
         binding.dwldMentor.setOnClickListener {
-            val dialogBinding = layoutInflater.inflate(R.layout.my_custom_dialog, null)
+            val dialogBinding = layoutInflater.inflate(R.layout.successful_download_dialog, null)
             val myDialog = Dialog(requireContext())
             myDialog.setContentView(dialogBinding)
             myDialog.setCancelable(true)
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-            val requestDone = dialogBinding.findViewById<Button>(R.id.btnProfileUpdateSuccessDone)
+            val requestDone = dialogBinding.findViewById<Button>(R.id.btnSuccessfulDownload)
             requestDone.setOnClickListener {
 
                 myDialog.dismiss()

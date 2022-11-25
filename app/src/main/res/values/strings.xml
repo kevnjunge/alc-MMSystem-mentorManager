@@ -71,7 +71,6 @@
     </string-array>
 
 
-
     <!--Certificates Strings-->
 
     <string name="home">home</string>
@@ -84,7 +83,6 @@
 
     <string name="certificates">Certificates</string>
     <string name="messages">messages</string>
-
 
 
     <string name="logout">logout</string>

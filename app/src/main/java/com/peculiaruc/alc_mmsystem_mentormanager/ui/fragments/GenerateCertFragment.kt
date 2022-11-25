@@ -1,7 +1,6 @@
 package com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments
 
 import android.app.Dialog
-import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
@@ -45,7 +44,7 @@ class GenerateCertFragment : Fragment() {
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
 
-            val requestDone = dialogBinding.findViewById<Button>(R.id.dialog_done)
+            val requestDone = dialogBinding.findViewById<Button>(R.id.btnOpenEmailApp)
             requestDone.setOnClickListener {
 //               val action = GenerateCertFragmentDirections.actionGenerateCertFragmentToGeneratedCertsFragment()
 //                it.findNavController().navigate(action)

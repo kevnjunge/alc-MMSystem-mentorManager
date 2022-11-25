@@ -457,7 +457,7 @@
                 app:layout_constraintVertical_bias="1.0" />
 
             <Button
-                android:id="@+id/btnLinkedinLink"
+                android:id="@+id/btnShareReport"
                 style="?attr/materialButtonOutlinedStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -486,9 +486,9 @@
                 android:textAllCaps="false"
                 android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="@+id/btnLinkedinLink"
-                app:layout_constraintStart_toEndOf="@+id/btnLinkedinLink"
-                app:layout_constraintTop_toTopOf="@+id/btnLinkedinLink"
+                app:layout_constraintBottom_toBottomOf="@+id/btnShareReport"
+                app:layout_constraintStart_toEndOf="@+id/btnShareReport"
+                app:layout_constraintTop_toTopOf="@+id/btnShareReport"
                 app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

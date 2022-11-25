@@ -38,7 +38,7 @@ class EditMyProfileFragment : Fragment() {
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
 
-            val requestDone = dialogBinding.findViewById<Button>(R.id.btnProfileUpdateSuccessDone)
+            val requestDone = dialogBinding.findViewById<Button>(R.id.btnSuccessfulDownload)
             requestDone.setOnClickListener {
 
                 myDialog.dismiss()

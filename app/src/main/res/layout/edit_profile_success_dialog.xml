@@ -44,7 +44,7 @@
                 app:srcCompat="@drawable/profile_edit_success" />
 
             <Button
-                android:id="@+id/btnProfileUpdateSuccessDone"
+                android:id="@+id/btnSuccessfulDownload"
                 android:layout_width="302dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
