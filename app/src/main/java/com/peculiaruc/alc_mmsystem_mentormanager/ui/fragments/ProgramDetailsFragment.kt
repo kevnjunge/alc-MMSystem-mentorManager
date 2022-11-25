@@ -12,16 +12,6 @@ import android.widget.Button
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramDetailsBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-
-
-class ProgramDetailsFragment : Fragment() {
-    lateinit var binding: FragmentProgramDetailsBinding
-import com.peculiaruc.alc_mmsystem_mentormanager.R
-import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramDetailsBinding
-
-
 class ProgramDetailsFragment : Fragment() {
     lateinit var binding: FragmentProgramDetailsBinding
 
@@ -47,7 +37,4 @@ class ProgramDetailsFragment : Fragment() {
         }
         return binding.root
     }
-        return binding.root
-    }
-
 }

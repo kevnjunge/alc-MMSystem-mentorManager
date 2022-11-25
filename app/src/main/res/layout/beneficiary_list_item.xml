@@ -8,6 +8,7 @@
     android:padding="5dp">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/approv_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
@@ -22,7 +23,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/approv_img"
+                android:id="@+id/cert_image1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -41,7 +42,7 @@
                 android:text="@string/franka_kebede"
                 android:textColor="@color/mms_black_1"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/approv_img"
+                app:layout_constraintStart_toEndOf="@+id/cert_image1"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -54,7 +55,7 @@
                 android:text="@string/gads_cloud_2022_compl"
                 android:textColor="@color/mms_black_1"
                 android:textSize="16sp"
-                app:layout_constraintStart_toEndOf="@+id/approv_img"
+                app:layout_constraintStart_toEndOf="@+id/cert_image1"
                 app:layout_constraintTop_toBottomOf="@+id/name" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

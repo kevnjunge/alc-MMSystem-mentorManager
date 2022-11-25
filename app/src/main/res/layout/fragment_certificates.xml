@@ -190,9 +190,9 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/pending_no"
+        android:layout_width="407dp"
+        android:layout_height="42dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="8dp"
@@ -210,6 +210,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/mukta_regular"
                 android:text="@string/certificates_pending_approval"
                 android:textColor="@color/mms_black_2"
@@ -224,6 +225,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="146dp"
                 android:layout_marginEnd="27dp"
+                android:layout_marginTop="5dp"
                 android:contentDescription="@string/no"
                 android:src="@drawable/cert_rectangle"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -236,7 +238,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="146dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="5dp"
                 android:text="@string/_3"
                 android:textColor="@color/mms_green_11"
                 app:layout_constraintEnd_toEndOf="@+id/rect_colour"
@@ -254,6 +256,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/mukta_semibold"
         android:text="@string/generate_new_certificate"
@@ -262,7 +265,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+        app:layout_constraintTop_toBottomOf="@+id/pending_no" />
 
     <Button
         android:id="@+id/apply_for_cert"

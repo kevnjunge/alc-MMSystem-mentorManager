@@ -14,7 +14,24 @@
         android:id="@+id/certificatesFragment"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertificatesFragment"
         android:label="@string/certificates"
-        tools:layout="@layout/fragment_certificates" />
+        tools:layout="@layout/fragment_certificates" >
+        <action
+            android:id="@+id/action_certificatesFragment_to_approvedCertificateFragment"
+            app:destination="@id/approvedCertificateFragment" />
+        <action
+            android:id="@+id/action_certificatesFragment_to_earnedCertFragment2"
+            app:destination="@id/earnedCertFragment" />
+        <action
+            android:id="@+id/action_certificatesFragment_to_pendingApprovalFragment"
+            app:destination="@id/pendingApprovalFragment" />
+        <action
+            android:id="@+id/action_certificatesFragment_to_generatedCertsFragment"
+            app:destination="@id/generatedCertsFragment" />
+    </fragment>
+        <action
+            android:id="@+id/action_certificatesFragment_to_earnedCertFragment"
+            app:destination="@id/earnedCertFragment" />
+
     <fragment
         android:id="@+id/programsFragment2"
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.ProgramsFragment"
@@ -60,4 +77,33 @@
         android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/earnedCertFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.EarnedCertFragment"
+        android:label="fragment_earned_cert"
+        tools:layout="@layout/fragment_earned_cert" />
+    <fragment
+        android:id="@+id/approvedCertificateFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.ApprovedCertificateFragment"
+        android:label="fragment_approved_certificates"
+        tools:layout="@layout/fragment_approved_certificates" />
+    <fragment
+        android:id="@+id/certRequestSelectFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertRequestSelectFragment"
+        android:label="fragment_cert_request_select"
+        tools:layout="@layout/fragment_cert_request_select" >
+        <action
+            android:id="@+id/action_certRequestSelectFragment_to_certificatesFragment"
+            app:destination="@id/certificatesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingApprovalFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.PendingApprovalFragment"
+        android:label="fragment_pending_approval"
+        tools:layout="@layout/fragment_pending_approval" />
+    <fragment
+        android:id="@+id/generatedCertsFragment"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.GeneratedCertsFragment"
+        android:label="fragment_generated_certs"
+        tools:layout="@layout/fragment_generated_certs" />
 </navigation>
