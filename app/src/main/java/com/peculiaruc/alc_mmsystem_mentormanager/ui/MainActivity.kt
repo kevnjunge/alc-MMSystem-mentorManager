@@ -17,14 +17,27 @@ import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.CertificatesFragment
 
 class MainActivity : AppCompatActivity() {
+
    private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
+
+    lateinit var appBarConfiguration: AppBarConfiguration
+    lateinit var navController: NavController
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         // Initializing Fragments
+
+
+        val button = findViewById<Button>(R.id.btn)
+        button.setOnClickListener {
+            val i = Intent(this, EditProfile::class.java)
+            startActivity(i)
+        }
 
         navController = findNavController(R.id.nav_host_fragment_container)
         val navBottomView: BottomNavigationView = findViewById(R.id.bottom_navigation_view)
@@ -37,6 +50,11 @@ class MainActivity : AppCompatActivity() {
 
         // Drawer Layout
         NavigationUI.setupWithNavController(navView,navController)
+
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        return NavigationUI.navigateUp(navController,appBarConfiguration)
+
     }
 
     override fun onSupportNavigateUp(): Boolean {

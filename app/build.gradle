@@ -73,6 +73,9 @@ dependencies {
     //Material Design
     implementation "com.google.android.material:material:1.7.0"
 
+    //Preference Screen
+    implementation "androidx.preference:preference-ktx:1.2.0"
+
     // Google Play Services
 //    implementation 'com.google.android.gms:play-services-auth:20.3.0'
 }
