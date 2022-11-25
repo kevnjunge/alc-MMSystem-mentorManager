@@ -1,11 +1,15 @@
 package com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments
 
+import android.app.Dialog
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEditMyProfileBinding
@@ -24,6 +28,22 @@ class EditMyProfileFragment : Fragment() {
         binding!!.btnBackHome.setOnClickListener {
             val action = EditMyProfileFragmentDirections.actionEditMyProfileFragmentToProfileFragment()
             it.findNavController().navigate(action)
+        }
+        binding!!.btnSave.setOnClickListener {
+            val dialogBinding = layoutInflater.inflate(R.layout.edit_profile_success_dialog, null)
+
+            val myDialog = Dialog(requireContext())
+            myDialog.setContentView(dialogBinding)
+            myDialog.setCancelable(true)
+            myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+
+            val requestDone = dialogBinding.findViewById<Button>(R.id.btnProfileUpdateSuccessDone)
+            requestDone.setOnClickListener {
+
+                myDialog.dismiss()
+            }
+            myDialog.show()
         }
 
 

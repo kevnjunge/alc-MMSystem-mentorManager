@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/mukta_semibold"
-                android:text="@string/certificate_downloaded_successfully"
+                android:text="@string/profile_successfully_updated"
                 android:textAlignment="center"
                 android:textColor="@color/mms_black_2"
                 android:textSize="18sp"
@@ -41,7 +41,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cert_notif"
-                app:srcCompat="@drawable/download_2" />
+                app:srcCompat="@drawable/profile_edit_success" />
 
             <Button
                 android:id="@+id/btnProfileUpdateSuccessDone"

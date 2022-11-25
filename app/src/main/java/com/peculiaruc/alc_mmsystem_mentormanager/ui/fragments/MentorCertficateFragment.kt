@@ -33,7 +33,7 @@ class MentorCertficateFragment : Fragment() {
             myDialog.setCancelable(true)
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
-            val requestDone = dialogBinding.findViewById<Button>(R.id.done2)
+            val requestDone = dialogBinding.findViewById<Button>(R.id.btnProfileUpdateSuccessDone)
             requestDone.setOnClickListener {
 
                 myDialog.dismiss()
