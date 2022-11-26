@@ -52,6 +52,10 @@ class GenerateCertFragment : Fragment() {
             }
             myDialog.show()
         }
+        binding.gencertArrow.setOnClickListener {
+            val action = GenerateCertFragmentDirections.actionGenerateCertFragmentToCertBeneficiaryFragment()
+            it.findNavController().navigate(action)
+        }
 
         // Inflate the layout for this fragment
         return binding.root

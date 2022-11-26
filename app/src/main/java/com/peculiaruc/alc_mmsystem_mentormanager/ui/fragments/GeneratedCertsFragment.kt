@@ -5,17 +5,27 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentGeneratedCertsBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
 class GeneratedCertsFragment : Fragment() {
+
+    private lateinit var binding:FragmentGeneratedCertsBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
+        binding = FragmentGeneratedCertsBinding.inflate(inflater)
+        binding.btnBackProfile.setOnClickListener {
+            val action = GeneratedCertsFragmentDirections.actionGeneratedCertsFragmentToCertificatesFragment()
+            it.findNavController().navigate(action)
+        }
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_generated_certs, container, false)
+        return binding.root
     }
 
 }

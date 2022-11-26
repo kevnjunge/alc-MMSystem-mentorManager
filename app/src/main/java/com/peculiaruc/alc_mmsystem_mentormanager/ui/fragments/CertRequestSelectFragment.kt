@@ -29,6 +29,13 @@ class CertRequestSelectFragment : Fragment() {
             val action = CertRequestSelectFragmentDirections.actionCertRequestSelectFragmentToGenerateCertFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.selArrow.setOnClickListener {
+
+            val action = CertRequestSelectFragmentDirections.actionCertRequestSelectFragmentToGenerateCertFragment()
+            it.findNavController().navigate(action)
+
+        }
         return binding.root
 
     }
