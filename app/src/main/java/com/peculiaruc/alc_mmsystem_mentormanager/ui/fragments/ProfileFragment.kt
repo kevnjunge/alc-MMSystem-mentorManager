@@ -30,6 +30,16 @@ class ProfileFragment : Fragment() {
             val action = ProfileFragmentDirections.actionProfileFragmentToHomeFragment()
             it.findNavController().navigate(action)
         }
+
+        binding.chipPrograms.setOnClickListener{
+            val action = ProfileFragmentDirections.actionProfileFragmentToProgramDummy()
+            it.findNavController().navigate(action)
+        }
+
+        binding.chipMentors.setOnClickListener{
+            val action = ProfileFragmentDirections.actionProfileFragmentToMentorsDummy()
+            it.findNavController().navigate(action)
+        }
         // Inflate the layout for this fragment
         return binding.root
     }

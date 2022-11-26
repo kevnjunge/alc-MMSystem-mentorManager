@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyReportDetailsBinding
 
@@ -66,6 +67,10 @@ class MyReportDetails : Fragment() {
             }
             myDialog.show()
 
+        }
+        binding.btnCloseReport.setOnClickListener {
+            val action = MyReportDetailsDirections.actionMyReportDetailsToReportsDummy()
+            it.findNavController().navigate(action)
         }
 
 

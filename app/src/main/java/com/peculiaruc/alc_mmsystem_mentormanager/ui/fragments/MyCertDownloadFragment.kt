@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyCertDownloadBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyReportDetailsBinding
@@ -42,6 +43,11 @@ class MyCertDownloadFragment : Fragment() {
                 }
                 myDialog.show()
             }
+
+        binding.btnBackArrow.setOnClickListener {
+            val action = MyCertDownloadFragmentDirections.actionMyCertDownloadFragmentToCertificatesDummy()
+            it.findNavController().navigate(action)
+        }
 
 
         // Inflate the layout for this fragment
