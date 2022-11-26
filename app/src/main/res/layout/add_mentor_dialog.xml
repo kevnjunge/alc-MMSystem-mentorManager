@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mentor_notif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/add_mentor"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mentor_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="102dp"
+        android:text="@string/email"
+        android:textSize="12sp"
+        android:fontFamily="@font/mukta"
+        android:textColor="@color/mms_black_6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailinput"
+        android:layout_width="369dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
+        android:hint="@string/samkebede_gmail_com"
+        android:textAlignment="textStart"
+        android:textSize="16sp"
+        android:textColor="@color/mms_black_6"
+        android:fontFamily="@font/mukta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mentor_mail">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/send_mentor"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/mukta_semibold2"
+        android:text="@string/send"
+        android:textColor="@color/mms_black_10"
+        android:textSize="18sp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailinput" />
+
+    <Button
+        android:id="@+id/cancel_mentor"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/cancel"
+        android:background="@drawable/custom_button"
+        android:textSize="18sp"
+        android:textColor="@color/mms_pry_2"
+        app:backgroundTint="@color/mms_green_11"
+        android:fontFamily="@font/mukta_semibold2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send_mentor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
