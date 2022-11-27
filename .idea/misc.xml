@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/certificates_item.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/edit_profile_success_dialog.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_certificates_dummy.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_mentors.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_mentors_dummy.xml" value="0.30416666666666664" />
@@ -14,8 +15,10 @@
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_programs.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_reports.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_reports_dummy.xml" value="0.29010416666666666" />
+        <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_search.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/fragment_task_dummy.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/mentors_item.xml" value="0.10365853658536585" />
+        <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/notifications_item.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/program_item.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/reports_item.xml" value="0.14792299898682879" />
         <entry key="..\:/Users/Droid_Smith/Documents/ALCMentorManager/alc-MMSystem-mentorManager/app/src/main/res/layout/share_report_dialog.xml" value="0.14792299898682879" />

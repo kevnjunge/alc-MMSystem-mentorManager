@@ -5,28 +5,44 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
+import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
+import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentSearchBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [SearchFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class SearchFragment : Fragment() {
 
+    private lateinit var binding: FragmentSearchBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_search, container, false)
-    }
 
-   
+        var buttonPosition = 0
+
+        binding = FragmentSearchBinding.inflate(inflater)
+
+
+        binding.btnSort.setOnClickListener {
+
+            if (buttonPosition == 0) {
+                binding.relativeLayout.visibility = View.VISIBLE
+                buttonPosition = 1;
+            } else if (buttonPosition == 1) {
+                binding.relativeLayout.visibility = View.GONE
+                buttonPosition = 0;
+            }
+
+        }
+
+        binding.btnBackDashboard.setOnClickListener {
+            val action = SearchFragmentDirections.actionSearchFragmentToHomeFragment()
+            it.findNavController().navigate(action)
+        }
+        // Inflate the layout for this fragment
+        return binding.root
+
+    }
 }
