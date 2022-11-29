@@ -13,6 +13,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyReportDetailsBinding
 
+/**
+ * Fragment to show program report details
+ */
 class MyReportDetails : Fragment() {
 
     private lateinit var binding: FragmentMyReportDetailsBinding

@@ -10,8 +10,9 @@ import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertBeneficiaryBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertificatesBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+/**
+ * fragment for certificate beneficiaries
+ */
 
 class CertBeneficiaryFragment : Fragment() {
 lateinit var binding: FragmentCertBeneficiaryBinding

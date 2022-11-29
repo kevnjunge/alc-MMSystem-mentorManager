@@ -9,7 +9,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProfileBinding
 
-
+/**
+ * Fragment to display mentor managers profile data
+ */
 class ProfileFragment : Fragment() {
 
     private lateinit var binding: FragmentProfileBinding

@@ -13,6 +13,10 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMentorApplicantsBinding
 
+/**
+ *  Fragment for mentor applicants
+ */
+
 class MentorApplicants : Fragment() {
 
     private lateinit var binding: FragmentMentorApplicantsBinding

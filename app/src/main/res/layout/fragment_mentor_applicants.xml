@@ -40,17 +40,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_addApplicant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/mms_pry_2"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="60dp"
-        android:src="@drawable/fab_button"
-        android:backgroundTint="@color/mms_pry_2"
+        app:tint="@color/white"
+        app:srcCompat="@drawable/fab_button"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:contentDescription="add mentor button" />
+        android:contentDescription="add mentor button"/>
+
+
+
 
     <ScrollView
         android:layout_width="match_parent"

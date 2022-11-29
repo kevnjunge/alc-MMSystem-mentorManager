@@ -9,6 +9,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEmptyNotificationsBinding
 
+/**
+ * screen displayed when there are empty notifications
+ */
 class EmptyNotificationsFragment : Fragment() {
 
  private lateinit var binding:FragmentEmptyNotificationsBinding

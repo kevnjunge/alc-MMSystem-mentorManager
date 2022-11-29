@@ -11,6 +11,10 @@ import androidx.navigation.findNavController
 
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertificatesBinding
 
+/**
+ * this fragment holds certificate dashboard
+ */
+
 class CertificatesFragment : Fragment() {
     lateinit var binding: FragmentCertificatesBinding
 

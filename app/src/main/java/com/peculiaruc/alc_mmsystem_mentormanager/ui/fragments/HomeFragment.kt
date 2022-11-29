@@ -8,6 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentHomeBinding
 
+/**
+ * shows the home dashboard
+ */
 class HomeFragment : Fragment() {
     private lateinit var binding: FragmentHomeBinding
 

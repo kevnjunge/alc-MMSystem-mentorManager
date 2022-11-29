@@ -10,6 +10,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentSearchBinding
 
+/**
+ * Fragment to search within the application
+ */
 
 class SearchFragment : Fragment() {
 

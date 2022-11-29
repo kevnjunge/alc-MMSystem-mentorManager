@@ -8,7 +8,11 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramDummyBinding
-
+/**
+ * Fragment to display dummy view data for the profile section
+ * to be deleted on implementation of the backend and a recyclerview set in place in the profile
+ * fragment.The view items are already created
+ */
 
 class ProgramDummy : Fragment() {
 

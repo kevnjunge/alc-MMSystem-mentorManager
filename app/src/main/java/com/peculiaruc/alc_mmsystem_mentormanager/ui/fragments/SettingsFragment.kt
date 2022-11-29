@@ -25,6 +25,7 @@ class SettingsFragment :Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         binding = FragmentSettingsBinding.inflate(inflater)
+
         return binding.root
     }
 

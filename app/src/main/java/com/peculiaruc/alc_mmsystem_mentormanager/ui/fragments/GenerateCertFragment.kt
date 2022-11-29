@@ -13,6 +13,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentGenerateCertBinding
 
+/**
+ * Fragment for generating certificates
+ */
 
 class GenerateCertFragment : Fragment() {
 

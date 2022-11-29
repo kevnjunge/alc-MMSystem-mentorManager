@@ -9,6 +9,10 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentApprovedCertificatesBinding
 
+/**
+ * fragment for approved certificates
+ */
+
 class ApprovedCertificateFragment : Fragment() {
 
  private  lateinit var binding:FragmentApprovedCertificatesBinding

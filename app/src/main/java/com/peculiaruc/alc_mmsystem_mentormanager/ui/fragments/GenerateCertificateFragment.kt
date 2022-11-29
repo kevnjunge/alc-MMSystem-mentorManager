@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 
-
+/**
+ * Fragment to generate certificates
+ */
 class GenerateCertificateFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramsBinding
 
-
+/**
+ * Fragment to display details of a program
+ */
 class ProgramDetailsFragment : Fragment() {
     lateinit var binding: FragmentProgramsBinding
 

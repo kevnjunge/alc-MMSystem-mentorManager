@@ -14,6 +14,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEditMyProfileBinding
 
+/**
+ * fragment to edit profile data
+ */
 
 class EditMyProfileFragment : Fragment() {
 

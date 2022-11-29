@@ -14,6 +14,9 @@ import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyCertDownloadBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMyReportDetailsBinding
 
+/**
+ * Fragment for download of mentor certificate
+ */
 class MyCertDownloadFragment : Fragment() {
 
     private lateinit var binding: FragmentMyCertDownloadBinding

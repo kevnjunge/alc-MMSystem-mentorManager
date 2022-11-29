@@ -14,6 +14,10 @@ import androidx.navigation.fragment.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertRequestSelectBinding
 
+
+/**
+ * This is a fragment for selecting programs to generate certificates for
+ */
 class CertRequestSelectFragment : Fragment() {
    lateinit var binding: FragmentCertRequestSelectBinding
     override fun onCreateView(

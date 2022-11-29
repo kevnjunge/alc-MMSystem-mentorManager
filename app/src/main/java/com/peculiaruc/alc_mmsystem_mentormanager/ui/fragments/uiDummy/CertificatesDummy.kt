@@ -10,6 +10,11 @@ import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentCertificatesDummyBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentReportsDummyBinding
 
+/**
+ * Fragment to display dummy view data for the profile section
+ * to be deleted on implementation of the backend and a recyclerview set in place in the profile
+ * fragment.The view items are already created
+ */
 class CertificatesDummy : Fragment() {
  private  lateinit var binding: FragmentCertificatesDummyBinding
 

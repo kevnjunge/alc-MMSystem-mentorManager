@@ -10,6 +10,9 @@ import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentApprovedCer
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProfileBinding
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentProgramsBinding
 
+/**
+ * fragment to display programs
+ */
 class ProgramsFragment : Fragment() {
   private lateinit var binding: FragmentProgramsBinding
     override fun onCreateView(

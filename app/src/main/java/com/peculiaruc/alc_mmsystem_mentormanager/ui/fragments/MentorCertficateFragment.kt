@@ -13,8 +13,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentMentorCertficateBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+/**
+ * Fragment for download of mentors certificate
+ */
 
 
 class MentorCertficateFragment : Fragment() {

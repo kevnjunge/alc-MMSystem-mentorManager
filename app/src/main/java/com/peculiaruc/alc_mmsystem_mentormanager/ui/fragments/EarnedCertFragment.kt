@@ -9,6 +9,9 @@ import androidx.navigation.findNavController
 import com.peculiaruc.alc_mmsystem_mentormanager.R
 import com.peculiaruc.alc_mmsystem_mentormanager.databinding.FragmentEarnedCertBinding
 
+/**
+ * fragment shows a list of certificates earned
+ */
 class EarnedCertFragment : Fragment() {
  private lateinit var binding:FragmentEarnedCertBinding
 
