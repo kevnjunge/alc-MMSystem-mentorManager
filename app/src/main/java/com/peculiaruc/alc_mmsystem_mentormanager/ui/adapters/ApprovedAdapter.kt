@@ -19,6 +19,9 @@ ListAdapter<Item, ApprovedAdapter.ApprovedViewHolder>(DiffCallback){
      * binding data to the views
      */
     class ApprovedViewHolder(private var binding:ApprovedListItemBinding):
+    /**
+     * binds the recyclerview
+     */
         RecyclerView.ViewHolder(binding.root){
 
 
