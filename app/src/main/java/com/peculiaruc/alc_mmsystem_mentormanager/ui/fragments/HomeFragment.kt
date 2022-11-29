@@ -23,6 +23,11 @@ class HomeFragment : Fragment() {
             it.findNavController().navigate(action)
         }
 
+        binding.btnMentorApplication.setOnClickListener {
+            val action = HomeFragmentDirections.actionHomeFragmentToMentorApplicants()
+            it.findNavController().navigate(action)
+        }
+
 
         return binding.root
     }

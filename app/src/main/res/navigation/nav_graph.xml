@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_notificationsFragment"
             app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mentorApplicants"
+            app:destination="@id/mentorApplicants" />
     </fragment>
     <fragment
         android:id="@+id/certificatesFragment"
@@ -305,6 +308,27 @@
         <action
             android:id="@+id/action_myCertDownloadFragment_to_certificatesDummy"
             app:destination="@id/certificatesDummy" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorApplicants"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.MentorApplicants"
+        android:label="fragment_mentor_applicants"
+        tools:layout="@layout/fragment_mentor_applicants" >
+        <action
+            android:id="@+id/action_mentorApplicants_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_mentorApplicants_to_mentorApplicationRequest"
+            app:destination="@id/mentorApplicationRequest" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorApplicationRequest"
+        android:name="com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.MentorApplicationRequest"
+        android:label="fragment_mentor_application_request"
+        tools:layout="@layout/fragment_mentor_application_request" >
+        <action
+            android:id="@+id/action_mentorApplicationRequest_to_mentorApplicants"
+            app:destination="@id/mentorApplicants" />
     </fragment>
 
 </navigation>
