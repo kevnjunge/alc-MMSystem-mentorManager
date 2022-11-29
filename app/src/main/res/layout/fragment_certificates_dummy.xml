@@ -170,7 +170,7 @@
                 android:textSize="15sp"
                 app:chipCornerRadius="5dp"
                 android:textColor="@color/mms_black_2"
-                android:backgroundTint="@color/mms_pry_8"
+                android:backgroundTint="@color/mms_pry_10"
                 app:chipStrokeColor="@color/mms_pry_8"
                 app:chipStrokeWidth="1dp"
                 android:text="@string/reports" />

@@ -8,7 +8,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
-import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
@@ -20,20 +19,14 @@ import com.peculiaruc.alc_mmsystem_mentormanager.ui.fragments.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
 
+
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navController: NavController
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val navHostFragment = supportFragmentManager
-            .findFragmentById(R.id.nav_host_fragment_container) as NavHostFragment
-        navController = navHostFragment.navController
-
-
 
         // Initializing Fragments
         navController = findNavController(R.id.nav_host_fragment_container)
@@ -41,8 +34,8 @@ class MainActivity : AppCompatActivity() {
         val drawerLayout: DrawerLayout = findViewById(R.id.mmDrawerLayout)
         val navView: NavigationView = findViewById(R.id.Nav_View)
         navBottomView.setupWithNavController(navController)
-        val headerView: View = navView.getHeaderView(0)
-        val imageIcon: ImageView = headerView.findViewById(R.id.settings_Account)
+        val headerView: View = navView.getHeaderView(0).findViewById(R.id.drawerHeader)
+        val imageIcon: ImageView = headerView.findViewById(R.id.setting_Account)
         imageIcon.setOnClickListener {
             val settingsFragment = SettingsFragment()
             val fragment: Fragment? =
@@ -50,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             if (fragment !is SettingsFragment) {
                 supportFragmentManager.beginTransaction()
                     .add(
-                        R.id.settingContainer,
+                        R.id.settingsLayout,
                         settingsFragment,
                         SettingsFragment::class.java.simpleName
                     )
@@ -71,10 +64,8 @@ class MainActivity : AppCompatActivity() {
 
         // Drawer Layout
         NavigationUI.setupWithNavController(navView,navController)
-
     }
     override fun onSupportNavigateUp(): Boolean {
         return NavigationUI.navigateUp(navController,appBarConfiguration)
     }
-
 }
