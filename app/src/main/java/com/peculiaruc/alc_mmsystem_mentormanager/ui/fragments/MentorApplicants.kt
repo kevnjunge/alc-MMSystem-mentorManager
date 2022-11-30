@@ -4,6 +4,7 @@ import android.app.Dialog
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.view.Gravity
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -44,6 +45,8 @@ class MentorApplicants : Fragment() {
             val myDialog = Dialog(requireContext())
             myDialog.setContentView(dialogBinding)
             myDialog.setCancelable(true)
+            myDialog.window?.setGravity(Gravity.BOTTOM)
+            myDialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
             val sendMentorInvitation = dialogBinding.findViewById<Button>(R.id.send_mentor)
@@ -56,6 +59,8 @@ class MentorApplicants : Fragment() {
                 val invitationDialog = Dialog(requireContext())
                 invitationDialog.setContentView(invitationDialogBinding)
                 invitationDialog.setCancelable(true)
+                invitationDialog.window?.setGravity(Gravity.BOTTOM)
+                invitationDialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
                 invitationDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
                 val invitationSent = invitationDialogBinding.findViewById<Button>(R.id.btnMentorApprovalComplete)

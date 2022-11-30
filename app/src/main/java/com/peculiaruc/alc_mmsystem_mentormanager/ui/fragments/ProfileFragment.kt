@@ -42,6 +42,14 @@ class ProfileFragment : Fragment() {
             val action = ProfileFragmentDirections.actionProfileFragmentToMentorsDummy()
             it.findNavController().navigate(action)
         }
+        binding.chipTasks.setOnClickListener {
+            val action = ProfileFragmentDirections.actionProfileFragmentToTaskDummy()
+            it.findNavController().navigate(action)
+        }
+        binding.chipReports.setOnClickListener {
+            val action = ProfileFragmentDirections.actionProfileFragmentToReportsDummy()
+            it.findNavController().navigate(action)
+        }
         // Inflate the layout for this fragment
         return binding.root
     }

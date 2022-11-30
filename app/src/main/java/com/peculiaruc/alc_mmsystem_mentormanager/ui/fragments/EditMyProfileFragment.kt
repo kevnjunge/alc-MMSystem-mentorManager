@@ -4,10 +4,8 @@ import android.app.Dialog
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Button
 import androidx.navigation.findNavController
@@ -38,6 +36,8 @@ class EditMyProfileFragment : Fragment() {
             val myDialog = Dialog(requireContext())
             myDialog.setContentView(dialogBinding)
             myDialog.setCancelable(true)
+            myDialog.window?.setGravity(Gravity.BOTTOM)
+            myDialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
             myDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
 
 

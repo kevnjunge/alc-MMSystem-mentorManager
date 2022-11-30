@@ -69,6 +69,18 @@
         <action
             android:id="@+id/action_profileFragment_to_mentorsDummy"
             app:destination="@id/mentorsDummy" />
+        <action
+            android:id="@+id/action_profileFragment_to_taskDummy"
+            app:destination="@id/taskDummy" />
+        <action
+            android:id="@+id/action_profileFragment_to_certificatesDummy"
+            app:destination="@id/certificatesDummy" />
+        <action
+            android:id="@+id/action_profileFragment_to_reportsDummy"
+            app:destination="@id/reportsDummy" />
+        <action
+            android:id="@+id/action_profileFragment_to_programDummy2"
+            app:destination="@id/programDummy" />
     </fragment>
     <fragment
         android:id="@+id/myManagersFragment"
