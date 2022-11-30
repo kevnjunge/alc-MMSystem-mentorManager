@@ -14,7 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:contentDescription="@string/cert_back"
-        android:src="@drawable/icon_back"
+        android:src="@drawable/back_arrow"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

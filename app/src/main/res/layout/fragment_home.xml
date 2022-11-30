@@ -64,13 +64,12 @@
 
         <HorizontalScrollView
             android:id="@+id/mmCardsScroll"
-            android:layout_width="372dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:overScrollMode="never"
-            android:paddingEnd="20dp"
             android:scrollbars="none"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,180 +78,180 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp">
+                android:orientation="horizontal">
 
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/mentorsCard"
+                <androidx.cardview.widget.CardView
                     android:layout_width="235dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:padding="8dp"
-                    app:cardBackgroundColor="@color/mms_pry_2">
+                    android:layout_height="87dp"
+                    android:layout_marginEnd="19dp"
+                    android:backgroundTint="@color/mms_pry_2"
+                    app:cardCornerRadius="5dp">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/tvMentorsNumber"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
                             android:layout_marginStart="20dp"
                             android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/_20"
+                            android:gravity="fill"
+                            android:text="20"
                             android:textColor="@color/mms_green_11"
-                            android:textSize="64sp"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            android:textSize="64sp" />
 
                         <TextView
-                            android:id="@+id/tvTitleMentors"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="83dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
                             android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/mentors"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="0.7"
+                            android:text="Mentors"
+                            android:textAlignment="textStart"
                             android:textColor="@color/mms_green_11"
                             android:textSize="16sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/tvMentorsNumber"
-                            app:layout_constraintStart_toEndOf="@+id/tvMentorsNumber"
-                            app:layout_constraintTop_toTopOf="@+id/tvMentorsNumber" />
+                            tools:ignore="RtlCompat" />
 
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnViewMentors"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginEnd="20dp"
-                            android:backgroundTint="@color/mms_pry_10"
-                            android:text="@string/view"
-                            android:textAllCaps="false"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@id/tvTitleMentors"
-                            app:layout_constraintTop_toBottomOf="@+id/tvTitleMentors" />
+                    </LinearLayout>
 
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnViewMentors"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="50dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="11dp"
+                        android:backgroundTint="@color/mms_pry_10"
+                        android:fontFamily="@font/mukta_regular"
+                        android:padding="0dp"
+                        android:text="View"
+                        android:textAllCaps="false"
+                        android:textColor="@color/mms_pry_2"
+                        android:textSize="12sp"
+                        app:strokeColor="@color/mms_pry_10" />
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
 
-                </com.google.android.material.card.MaterialCardView>
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/programsCard"
+                <androidx.cardview.widget.CardView
                     android:layout_width="235dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    app:cardBackgroundColor="@color/mms_pry_2">
+                    android:layout_height="87dp"
+                    android:layout_marginEnd="19dp"
+                    android:backgroundTint="@color/mms_pry_2"
+                    app:cardCornerRadius="5dp">
 
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/tvProgramsNumber"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/_5"
-                            android:textColor="@color/mms_green_11"
-                            android:textSize="64sp"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/tvTitlePrograms"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="83dp"
-                            android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/programs"
-                            android:textColor="@color/mms_green_11"
-                            android:textSize="16sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/tvProgramsNumber"
-                            app:layout_constraintStart_toEndOf="@+id/tvProgramsNumber"
-                            app:layout_constraintTop_toTopOf="@+id/tvProgramsNumber" />
-
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnViewPrograms"
-                            style="?attr/borderlessButtonStyle"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginEnd="10dp"
-                            android:backgroundTint="@color/mms_pry_10"
-                            android:text="@string/view"
-                            android:textAllCaps="false"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@id/tvTitlePrograms"
-                            app:layout_constraintTop_toBottomOf="@+id/tvTitlePrograms" />
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
-
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/tasksCard"
-                    android:layout_width="235dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    app:cardBackgroundColor="@color/mms_pry_2">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/tvTasksNumber"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
                             android:layout_marginStart="20dp"
                             android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/_10"
+                            android:gravity="fill"
+                            android:text="5"
                             android:textColor="@color/mms_green_11"
-                            android:textSize="64sp"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            android:textSize="64sp" />
 
                         <TextView
-                            android:id="@+id/tvTitleTasks"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="83dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
                             android:fontFamily="@font/mukta_semibold"
-                            android:text="@string/mentors"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="0.7"
+                            android:text="Programs"
+                            android:textAlignment="textStart"
                             android:textColor="@color/mms_green_11"
                             android:textSize="16sp"
-                            app:layout_constraintBottom_toBottomOf="@+id/tvTasksNumber"
-                            app:layout_constraintStart_toEndOf="@+id/tvTasksNumber"
-                            app:layout_constraintTop_toTopOf="@+id/tvTasksNumber" />
+                            tools:ignore="RtlCompat" />
 
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnViewTasks"
-                            style="?attr/borderlessButtonStyle"
+                    </LinearLayout>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnViewPrograms"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="50dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="11dp"
+                        android:backgroundTint="@color/mms_pry_10"
+                        android:fontFamily="@font/mukta_regular"
+                        android:padding="0dp"
+                        android:text="View"
+                        android:textAllCaps="false"
+                        android:textColor="@color/mms_pry_2"
+                        android:textSize="12sp"
+                        app:strokeColor="@color/mms_pry_10" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="235dp"
+                    android:layout_height="87dp"
+                    android:backgroundTint="@color/mms_pry_2"
+                    app:cardCornerRadius="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:fontFamily="@font/mukta_semibold"
+                            android:gravity="fill"
+                            android:text="10"
+                            android:textColor="@color/mms_green_11"
+                            android:textSize="64sp" />
+
+                        <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="4dp"
-                            android:layout_marginEnd="10dp"
-                            android:backgroundTint="@color/mms_pry_10"
-                            android:text="@string/view"
-                            android:textAllCaps="false"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toEndOf="@id/tvTitleTasks"
-                            app:layout_constraintTop_toBottomOf="@+id/tvTitleTasks" />
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/mukta_semibold"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="0.7"
+                            android:text="Tasks"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/mms_green_11"
+                            android:textSize="16sp"
+                            tools:ignore="RtlCompat" />
 
+                    </LinearLayout>
 
-                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnViewTasks"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="50dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="end|bottom"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="11dp"
+                        android:backgroundTint="@color/mms_pry_10"
+                        android:fontFamily="@font/mukta_regular"
+                        android:padding="0dp"
+                        android:text="View"
+                        android:textAllCaps="false"
+                        android:textColor="@color/mms_pry_2"
+                        android:textSize="12sp"
+                        app:strokeColor="@color/mms_pry_10" />
 
-                </com.google.android.material.card.MaterialCardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
